@@ -2,13 +2,13 @@
 ## PostgreSQL
 /----------------------------------------------
 # learn basic command
-    - check version in postgress command : ``` select version(); ```
-    - see database list : ```  \l ```
-    - switch database  :``` \c database_ name ```
-    - find all table  :``` \d ```
-    - sell all server user  :``` \du ```
-    - exicute previous command  :``` \g ```
-    - exit command panel  :``` \q ```
+    -check version in postgress command : ```select version();```
+    -see database list :```\l```
+    -switch database  :``` \c database_ name ```
+    -find all table  :```\d ```
+    -sell all server user  :```\du ```
+    -exicute previous command  :```\g ```
+    -exit command panel  :```\q ```
  
         -create database command  :```create database database_name; ```
         -create new user :``` create user user_name with encrypted password '1234'; ```
