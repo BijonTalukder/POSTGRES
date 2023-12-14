@@ -18,5 +18,34 @@
     -drop database :drop database database_name 
     -rename database :alter database current_database_name rename to new_database_name; 
     -change password user :ALTER USER user_name WITH PASSWORD 'new_password'; 
-   
+   # datatype in postgres
+   -Boolean
+     --true
+     --false
+   -Character
+     --char(n)
+     --varchar(n)
+     --text
+   -Number
+     --int
+       --small int[2 byte]
+       --int [4 byte]
+       --serial[auto increment]
+     --Float
+       --float(2)
+       --numeric(1,2)[firstOne before decimal,2nd one after decimal]
+   -Json
+   -Date
 
+
+ # constraints[validation]
+  -not null
+  - unique
+  - primary key
+  - foreign key
+  - check condition
+#######
+truncate table table_name
+
+
+  
