@@ -24,18 +24,18 @@
   * false
 ** Character
   * char(n)
-     * varchar(n)
-     * text
-    ** Number
-     * int
-     * small int[2 byte]
-     * int [4 byte]
-     * serial[auto increment]
-    ** Float
-       * float(2)
-       * numeric(1,2)[firstOne before decimal,2nd one after decimal]
-   * Json
-   * Date
+  * varchar(n)
+  * text
+** Number
+  * int
+  * small int[2 byte]
+  * int [4 byte]
+  * serial[auto increment]
+** Float
+  * float(2)
+  * numeric(1,2)[firstOne before decimal,2nd one after decimal]
+** Json
+** Date
 
 
  # constraints[validation]
