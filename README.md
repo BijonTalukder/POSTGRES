@@ -19,11 +19,11 @@
     - rename database :alter database current_database_name rename to new_database_name; 
     - change password user :ALTER USER user_name WITH PASSWORD 'new_password'; 
    # datatype in postgres
-    ** Boolean
-     * true
-     * false
-    ** Character
-     * char(n)
+** Boolean
+  * true
+  * false
+** Character
+  * char(n)
      * varchar(n)
      * text
     ** Number
