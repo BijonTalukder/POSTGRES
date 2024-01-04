@@ -34,8 +34,8 @@
     ** Float
        * float(2)
        * numeric(1,2)[firstOne before decimal,2nd one after decimal]
-   * Json
-   * Date
+    ** Json
+    ** Date
 
 
  # constraints[validation]
@@ -44,7 +44,7 @@
   - primary key
   - foreign key
   - check condition
-#######
+#
 truncate table table_name
 
 
