@@ -20,9 +20,9 @@
     - change password user :ALTER USER user_name WITH PASSWORD 'new_password'; 
    # datatype in postgres
     ** Boolean
-     - true
-     - false
-   ** Character
+     * true
+     * false
+    ** Character
      - char(n)
      - varchar(n)
      - text
